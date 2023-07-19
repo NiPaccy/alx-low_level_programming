@@ -7,10 +7,9 @@
  */
 int main(void)
 {
-	int i;
-	int sum = 0;
+	int i, sum = 0;
 
-	for (int i = 0; i < 2024; i++)
+	for (i = 0; i < 2024; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
 		{
